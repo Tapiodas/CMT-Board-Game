@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CMT-Board-Game/static/css/main.78ffd52b.css",
+    "main.js": "/CMT-Board-Game/static/js/main.80427423.js",
+    "static/js/488.ad5b1908.chunk.js": "/CMT-Board-Game/static/js/488.ad5b1908.chunk.js",
+    "index.html": "/CMT-Board-Game/index.html",
+    "main.78ffd52b.css.map": "/CMT-Board-Game/static/css/main.78ffd52b.css.map",
+    "main.80427423.js.map": "/CMT-Board-Game/static/js/main.80427423.js.map",
+    "488.ad5b1908.chunk.js.map": "/CMT-Board-Game/static/js/488.ad5b1908.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78ffd52b.css",
+    "static/js/main.80427423.js"
+  ]
+}
