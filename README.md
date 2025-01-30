@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Installation Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can use the application on my GitHub Pages site at https://tapiodas.github.io/CMT-Board-Game/, or you can install it locally on your machine.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before installing and running the project, ensure you have the following installed on your system:
 
-### `npm start`
+- **Node.js** (Latest LTS version recommended)
+- **npm** or **yarn** (npm comes bundled with Node.js)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Clone the repository
 
-### `npm test`
+```sh
+git clone https://github.com/Tapiodas/CMT-Board-Game
+cd CMT-Board-Game
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install dependencies
 
-### `npm run build`
+```sh
+npm install
+```
+or, if using yarn:
+```sh
+yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Running the Project
+Development Mode
+To start the development server, run:
+```sh
+npm start
+```
+or, if using yarn:
+```sh
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will launch the app in development mode with hot-reloading enabled.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running Tests
+To run tests, use:
 
-### `npm run eject`
+```sh
+npm test
+```
+or, if using yarn:
+```sh
+yarn test
+```
+This will execute the test suite to ensure everything is working as expected.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Building for Production
+To build the project for production, run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm run build
+```
+or, if using yarn:
+```sh
+yarn build
+```
+This will generate optimized static files in the build/ directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Additional Notes
+If you encounter dependency issues, try running npm audit fix or yarn upgrade.
+Make sure your .env file is correctly set up if required.
